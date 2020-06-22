@@ -3,9 +3,12 @@ import scrapy
 
 
 class TestSpider(scrapy.Spider):
-    name = 'testspider'
+    name = 'test1'
     allowed_domains = ['scrapinghub.com']
     start_urls = ['https://scrapinghub.com/']
 
     def parse(self, response):
-        pass
+        print('dir : ', dir(response))
+
+        print('status : ', response.status)
+        # print('body : ', response.body)
