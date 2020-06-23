@@ -10,6 +10,7 @@ scrapy-djangoitem = "^1.1.1"
 Scrapy = "^2.1.0"
 django = "^3.0.7"
 notebook = "^6.0.3"
+xlsxwriter = "^1.2.9"
 
 [tool.poetry.dev-dependencies]
 
